@@ -1,0 +1,7 @@
+image:
+  tag: v0.5.2
+ingressShim:
+  defaultIssuerName: letsencrypt-prod
+  defaultIssuerKind: ClusterIssuer
+rbac:
+  create: true

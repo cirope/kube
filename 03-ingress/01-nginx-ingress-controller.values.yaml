@@ -1,0 +1,11 @@
+controller:
+  image:
+    tag: "0.21.0"
+  stats:
+    enabled: true
+  metrics:
+    enabled: true
+podSecurityPolicy:
+  enabled: true
+rbac:
+  create: true
