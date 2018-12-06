@@ -13,5 +13,5 @@ helm init --tiller-tls-verify --tiller-tls --wait \
   --service-account $NAME                         \
   --tiller-tls-cert $CERTS_DIR/$NAME.cert.pem     \
   --tiller-tls-key $CERTS_DIR/$NAME.key.pem       \
-  --tiller-tls-hostname $NAME-server              \
+  --tiller-tls-hostname $NAME                     \
   --tls-ca-cert $CERTS_DIR/ca.cert.pem

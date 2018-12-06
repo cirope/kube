@@ -18,7 +18,7 @@ done
 NAME=${NAME:-tiller}
 DAYS=${DAYS:-3650}
 CA_SUBJ=${CA_SUBJ:-"/C=AR/ST=Mendoza/L=Godoy Cruz/O=Cirope S.A./OU=DevOps/CN=$NAME"}
-SUBJ=${SUBJ:-"/C=AR/ST=Mendoza/L=Godoy Cruz/O=Cirope S.A./OU=DevOps/CN=$NAME-server"}
+SUBJ=${SUBJ:-"/C=AR/ST=Mendoza/L=Godoy Cruz/O=Cirope S.A./OU=DevOps/CN=$NAME"}
 DIR=$(cd "$( dirname "$0")" && pwd)/certs
 
 mkdir -p $DIR
